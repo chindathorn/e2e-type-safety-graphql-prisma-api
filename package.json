@@ -1,0 +1,23 @@
+{
+  "main": "index.ts",
+  "prisma": {
+    "seed": "ts-node-dev prisma/seed.ts"
+  },
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "prisma": "^4.3.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@graphql-yoga/node": "^2.13.13",
+    "@pothos/core": "^3.20.0",
+    "@pothos/plugin-prisma": "^3.32.0",
+    "@prisma/client": "^4.3.1",
+    "graphql": "^16.6.0",
+    "graphql-scalars": "^1.18.0"
+  }
+}
